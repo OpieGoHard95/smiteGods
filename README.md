@@ -7,5 +7,5 @@ The dataset in this program keeps track of gods from the MOBA, or Multiplayer On
 
 Here are a couple of example entries from my dataset:
 
-'{ "name": "Xbalanque", "pantheon": "mayan", "class": "hunter", "starting health": 455, "starting mana": 220, "starting item": "death's toll" }'
+'{ "name": "xbalanque", "pantheon": "mayan", "class": "hunter", "starting health": 455, "starting mana": 220, "starting item": "death's toll" }'
 '{ "name": "loki", "pantheon": "norse", "class": "assassin", "starting health": 395, "starting mana": 210, "starting item": "heartseeker" }'
