@@ -17,5 +17,17 @@ var godList = [
 '{ "name": "hades", "pantheon": "greek", "class": "guardian", "attack type": "ranged", "power type": "magical" }',
 '{ "name": "hel", "pantheon": "norse", "class": "mage", "attack type": "ranged", "power type": "magical" }',
 '{ "name": "hercules", "pantheon": "roman", "class": "warrior", "attack type": "melee", "power type": "physical" }',
+'{ "name": "isis", "pantheon": "egyptian", "class": "mage", "attack type": "ranged", "power type": "magical" }',
+'{ "name": "janus", "pantheon": "roman", "class": "mage", "attack type": "ranged", "power type": "magical" }',
+'{ "name": "kali", "pantheon": "hindu", "class": "assassin", "attack type": "melee", "power type": "physical" }',
+'{ "name": "loki", "pantheon": "norse", "class": "assassin", "attack type": "melee", "power type": "physical" }',
+'{ "name": "mercury", "pantheon": "roman", "class": "assassin", "attack type": "melee", "power type": "physical" }',
+'{ "name": "neith", "pantheon": "egyptian", "class": "hunter", "attack type": "ranged", "power type": "physical" }',
+'{ "name": "nemesis", "pantheon": "greek", "class": "assassin", "attack type": "melee", "power type": "physical" }',
+'{ "nox": "nox", "pantheon": "roman", "class": "mage", "attack type": "ranged", "power type": "magical" }',
+'{ "name": "odin", "pantheon": "norse", "class": "warrior", "attack type": "melee", "power type": "physical" }',
+'{ "name": "osiris", "pantheon": "egyptian", "class": "warrior", "attack type": melee", "power type": "physical" }',
+'{ "name": "scylla", "pantheon": "greek", "class": "mage", "attack type": "ranged", "power type": "magical" }',
+'{ "name": "xbalanque", "pantheon": "mayan", "class": "hunter", "attack type": "ranged", "power type": "physical" }',
 ];
 console.log(godList);
