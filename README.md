@@ -9,3 +9,5 @@ Here are a couple of example entries from my dataset:
 
 '{ "name": "xbalanque", "pantheon": "mayan", "class": "hunter", "attack type": "ranged", "power type": "physical" }'
 '{ "name": "loki", "pantheon": "norse", "class": "assassin", "attack type": "melee", "power type": "physical" }'
+
+You can get different things out of these arrays. One possible idea is to filter the gods based on Pantheons. A second is to reduce the gods down to a certain month that they were released.
