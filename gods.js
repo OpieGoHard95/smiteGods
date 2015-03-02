@@ -46,3 +46,20 @@ function filter(array, test) {
 console.log(filter(godList, function(god) {
 	return god.pantheon == "mayan";
 	}));
+
+// Map Function
+
+function map(array, transform) {
+	var mapped = [];
+	for (var j = 0; j < array.length; j = j +1)
+		mapped.push(transform(array[j]));
+	return mapped;
+}
+
+var pantheon = godList.filter(function(god) {
+	return god.pantheon == "norse";
+});
+
+console.log(map(pantheon, function(god) {
+	return god.name;
+}));
