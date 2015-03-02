@@ -44,5 +44,5 @@ function filter(array, test) {
 	}
 
 console.log(filter(godList, function(god) {
-	return god.pantheon = "mayan";
+	return god.class == "hunter";
 	}));
