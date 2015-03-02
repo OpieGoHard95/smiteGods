@@ -31,3 +31,18 @@ var godList = [
 '{ "name": "xbalanque", "pantheon": "mayan", "class": "hunter", "attack type": "ranged", "power type": "physical" }',
 ];
 console.log(godList);
+
+// Filter Function
+
+function filter(array, test) {
+	var passed = [];
+	for (var j = 0; j < array.length; j = j + 1) {
+		if (test(array[j]))
+			passed.push(array[j]);
+		}
+		return passed;
+	}
+
+console.log(filter(godList, function(god) {
+	return god.pantheon == "mayan";
+	}));
